@@ -3,10 +3,10 @@ pipeline {
 
     environment {
         GOOGLE_APPLICATION_CREDENTIALS = credentials('gcp-service-account') 
-        GKE_CLUSTER_NAME = 'cluster-1' 
-        GKE_PROJECT_ID = 'gcp-devops-labs-504706' 
-        GKE_ZONE = 'us-central1-a' 
-        GIT_REPO_URL = 'https://github.com/ganesh-devops-999/k8s-app.git' 
+        GKE_CLUSTER_NAME = 'gcp-class25-cluster' 
+        GKE_PROJECT_ID = 'first-cicd-project' 
+        GKE_ZONE = 'us-central1' 
+        GIT_REPO_URL = 'https://github.com/shalthoor/k8s-class25.git' 
         GIT_BRANCH = 'main' 
     }
 
